@@ -1,1 +1,8 @@
-
+ls -h    เพื่อดูควาพร้อม git init ถ้าพร้อม ข้ามข้อ 3 ได้เลย
+echo "# TEST" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Keng3490200075/TEST.git
+git push -u origin main
